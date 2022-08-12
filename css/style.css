@@ -1,0 +1,136 @@
+/* 
+
+ESTRUTURA DO SITE 
+-------------------------------------------------------------------
+
+*/
+
+:root {
+ --body-bg-color: #FAF7FD;
+ --purple: #BB99DD;
+}
+
+* {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ box-sizing: border-box;
+
+}
+
+body {
+ width: 100vw;
+ height: 100vh;
+ margin: auto;
+ font-family: 'Poppins', sans-serif;
+ background-color: #c9b6dd;
+
+}
+
+
+a:link, a:active, a:visited {
+ color: black;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #9b60d6;
+}
+
+.container {
+ width: 50vw;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin: auto;
+ align-items: center;
+ background: rgba(242, 240, 244, 0.21);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(20px);
+ -webkit-backdrop-filter: blur(20px);
+ border: 1px solid rgba(242, 240, 244, 0.3);
+
+
+}
+
+/* 
+
+SESSÃO PERFIL 
+-------------------------------------------------------------------
+
+*/
+
+
+
+.img-profile {
+ margin-top: 50px;
+ width: 200px;
+ height: 200px;
+ border-radius: 100%;
+ border: 3px double #9b60d6;
+}
+
+.profile-instagram a {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ margin-top: 22px;
+}
+
+
+/* 
+
+SESSÃO LINK 
+-------------------------------------------------------------------
+
+*/
+
+.link-box {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 22px;
+
+}
+
+.link-box a {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 10px;
+ width: 326px;
+ height: 49px;
+ border: 2px solid #9b60d6;
+ border-radius: 4px;
+ font-weight: 600;
+ font-size: 16px;
+ line-height: 24px;
+ text-transform: uppercase; 
+ color: #9b60d6;
+}
+
+.link-box a:hover {
+ background-color: #9b60d6;
+ color: var(--body-bg-color);
+}
+
+
+/* 
+
+SESSÃO ICONES 
+-------------------------------------------------------------------
+
+*/
+
+.icon-box {
+ display: flex;
+ gap: 30px;
+ align-items: center;
+ justify-content: center;
+ margin-top: 58px;
+
+}
+
