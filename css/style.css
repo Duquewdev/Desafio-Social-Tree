@@ -147,11 +147,3 @@ SESSÃO ICONES
  margin-top: 58px;
 
 }
-
-@media (max-width: 800px) {
- margin-top: 50px;
- width: 200px;
- height: 200px;
- border-radius: 100%;
- border: 3px double #9b60d6;
-}
