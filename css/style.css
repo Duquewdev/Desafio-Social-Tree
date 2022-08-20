@@ -19,12 +19,21 @@ ESTRUTURA DO SITE
 }
 
 body {
- width: 100vw;
- height: 100vh;
+ width: 1440px;
+ height: 1024px;
  margin: auto;
  font-family: 'Poppins', sans-serif;
- background-color: #c9b6dd;
+ background-color: #FAF7FD;
+}
 
+@media (max-width: 414px) {
+ body {
+  width: 414px;
+  height: 896px;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FAF7FD;
+ }
 }
 
 
@@ -38,21 +47,24 @@ a:hover {
 }
 
 .container {
- width: 50vw;
- height: 100vh;
  display: flex;
  flex-direction: column;
+ flex-wrap: wrap;
  justify-content: center;
  margin: auto;
  align-items: center;
- background: rgba(242, 240, 244, 0.21);
- border-radius: 16px;
- box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
- backdrop-filter: blur(20px);
- -webkit-backdrop-filter: blur(20px);
- border: 1px solid rgba(242, 240, 244, 0.3);
 
+}
 
+@media (max-width: 414px) {
+ .container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+ }
 }
 
 /* 
@@ -71,6 +83,8 @@ SESSÃO PERFIL
  border-radius: 100%;
  border: 3px double #9b60d6;
 }
+
+
 
 .profile-instagram a {
  display: flex;
@@ -134,3 +148,10 @@ SESSÃO ICONES
 
 }
 
+@media (max-width: 800px) {
+ margin-top: 50px;
+ width: 200px;
+ height: 200px;
+ border-radius: 100%;
+ border: 3px double #9b60d6;
+}
