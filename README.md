@@ -6,18 +6,24 @@ que pode ser usada em perfis de redes sociais.
 </h3>
  
  
-Essa página foi criada apenas usando HTML e CSS. No posicionamento foi utilizado FlexBox <br>
-e também foram utilizadas algumas tags semânticas.
+Na versão anterior continha alguns erros de posicionamento, design e não existia nem 10% de responsividade. <br>
+Na versão atual não apliquei responsividade, somente corrigi algumas tags para tornar a página totalmente <br>
+centralizada e assim basicamente responsiva. 
 
-Em relação ao design, experimentei algumas alterações que me agradaram bastante <br>
-como o background hover nos links, que o desafio não pedia e o card no centro da tela <br>
-meio transparente e com shadow.
+Nesta nova versão utilizei apenas:
 
-<h3>
- Para a próxima versão: 
-<h3>
+- HTML
+- CSS
 
-- Versão mobile/responsividade.
+Para o posicionamento:
+
+- Flexbox
+
+Inovações e ajustes: 
+
+- Design
+- Posicionamento
+
 
 
 
